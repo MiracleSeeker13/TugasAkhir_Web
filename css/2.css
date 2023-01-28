@@ -1,0 +1,182 @@
+:root {
+    --color1: #235191;
+    --color2: #707070;
+    --color3: #44689b;
+    --white: #ffffff;
+    --black: #000000;
+
+}
+body{
+    height: 100%;
+    background-color: #fcfcfc;
+}
+.headerimg{
+    background-image: url("../gambar/bg_utama1.png");
+    padding-top: 0px;
+    background-size: cover;
+    background-position: left top;
+    background-position-y: 60%;
+}
+.bgimg{
+    background-image: url("../gambar/1.jpg");
+    background-size: cover;
+    width: auto;
+}
+.bgwhite{
+    background-color: white;
+    color: black;
+}
+.bgblue{
+    background-color: #235191;
+    color: white;
+}
+
+.card-dashboard{
+    border: 1px;
+    border-color: #235191;
+    border-style: solid;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: var(--color1);
+}
+
+.sidebar{
+    background-color: var(--color1);
+}
+.sidebar-sticky{
+    height: calc(92.2vh);
+    overflow-y: hidden;
+    overflow-y: auto;
+}
+.main-sticky{
+    height: 92.2vh;
+    overflow-y: hidden;
+    overflow-y: auto;
+}
+.main-sticky-dashboard{
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-y: auto;
+}
+#sidebar{
+    background-color: var(--color1);
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    opacity: 0.8; 
+ }
+
+/* text */
+.judul{
+    color: #000000 ;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px white ;
+    text-decoration: none;
+
+}
+.judul2{
+    color: #235191 ;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: var(--white);
+    color: var(--black);
+    box-shadow : 0.5rem .0.5rem 0.2rem rgba(80, 80, 80, 0.158);
+}
+.navbar-brand{
+    color: var(--black);
+}
+.navbar .navbar-nav .nav-link{
+    font-size: 2ch;
+    background-color: transparent;
+    color: var(--black);
+}
+.navbar .navbar-nav .nav-link:hover{
+    font-weight: bold;
+}
+.navbar .navbar-nav .nav-link.active{
+    font-size: 2ch;
+    font-weight: bold;
+}
+.nav .icon-link{
+    color: white;
+    padding: 0%;
+    margin-right: 10%;
+}
+.nav .icon-link:hover{
+    color: gray;
+}
+.breadcrumb-item{
+    color: #000000;
+    font-size: 2ch;
+    text-decoration: none;
+    
+}
+
+/* List Group */
+.list-group .list-group-item{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-width: 0ch;
+    padding: 0%;
+}
+.list-group .list-group-item .nav-link:hover{
+    color: gray;
+}
+.list-group .list-group-item-foot{
+    color: white;
+    background-color: transparent;
+    border-width: 0ch;
+    padding: 0%;
+    list-style-type: none;
+}
+.list-group .list-group-item-foot .nav-link:hover{
+    text-decoration: underline;
+}
+
+
+
+/* Atribut Menu Subjek */
+.subjek_text{
+    text-align: center;
+    
+}
+.card-group{
+    border-width: 0ch;
+
+}
+
+.btn-subjek{
+    background-color: white;
+    text-align: left;
+    margin: 2px;
+    padding: 5px;
+    /* border-width: 0px; */
+
+}
+.btn-subjek:hover{
+    font-weight: bold;
+    margin: -2px;
+}
+
+/* Efek Transisi */
+.transisi{
+    -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.zoomefek:hover .transisi{
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+/* Tabel */
+.thead{
+    background-color: var(--color1);
+    color: var(--white);
+}

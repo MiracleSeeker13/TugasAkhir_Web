@@ -1,0 +1,13 @@
+<table id="table">
+                        <tbody>   
+                            <tr>
+                                <td style="text-align: center;"><?= $i ?></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;"><?= $i ?></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;"><?= $i ?></td>
+                            </tr>
+                        </tbody>
+                    </table>   
